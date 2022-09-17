@@ -29,7 +29,7 @@ export default function App() {
           <div className='flex justify-center'>
             <a href='https://github.com/Gao-N' className="text-lg text-center text-white bg-emerald font-bold tracking-normal rounded-full hover:bg-opal hover:text-black w-1/6 p-2 m-2">Github</a>
             <a href='https://www.linkedin.com/in/nilson-gao/' className="text-base text-center text-white bg-emerald font-bold tracking-normal rounded-full hover:bg-opal hover:text-black w-1/6 p-2 m-2">Linkedin</a>
-            <a href='/' className="text-lg text-center text-white bg-emerald font-bold tracking-normal rounded-full hover:bg-opal hover:text-black w-1/6 p-2 m-2">Resume</a>
+            <a href='/Nilson_Gao_Resume_17-09-2022-01-22-00.pdf' target="_blank" className="text-lg text-center text-white bg-emerald font-bold tracking-normal rounded-full hover:bg-opal hover:text-black w-1/6 p-2 m-2">Resume</a>
           </div>
         </div>
       </section>
@@ -48,11 +48,13 @@ export default function App() {
       </section>
       <section id = "Courses" className='bg-prussian flex justify-evenly items-center content-center h-screen w-screen'>
         <h1 className='text-2xl font-bold text-white text-center'>Relevant Courses</h1>
-        <div className='flex justify-center items-center bg-gainsboro h-4/5 w-4/6 text-center'>
-        <ul className='flex flex-col justify-center'>
-          <li className='rounded-md'><h1 className='font-bold text-2xl text-black'>CSCA48</h1>
-          <ul>
-            <li>Learned C Programming and Fundamental Data Structures</li>
+        <div className='flex justify-evenly items-center bg-gainsboro h-4/5 w-4/6'>
+        <ul className=''>
+          <li className='bg-emerald rounded-md m-2 p-2'><h1 className='font-bold text-2xl text-white'>CSCA48</h1>
+          <ul className='font-bold text-base bg-emerald rounded-md text-white m-3 p-2 list-disc'>
+            <li>Learned C Programming</li>
+            <li>Abstract Data Types/Structures and their Implementation</li>
+            <li>Efficiency Analysis of Algorithms</li>
           </ul>
           </li>
         </ul>
