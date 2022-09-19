@@ -29,7 +29,7 @@ export default function App() {
           <div className='flex justify-center'>
             <a href='https://github.com/Gao-N' className="text-lg text-center text-white bg-emerald font-bold tracking-normal rounded-full hover:bg-opal hover:text-black w-1/6 p-2 m-2">Github</a>
             <a href='https://www.linkedin.com/in/nilson-gao/' className="text-base text-center text-white bg-emerald font-bold tracking-normal rounded-full hover:bg-opal hover:text-black w-1/6 p-2 m-2">Linkedin</a>
-            <a href='/Nilson_Gao_Resume_17-09-2022-01-22-00.pdf' target="_blank" className="text-lg text-center text-white bg-emerald font-bold tracking-normal rounded-full hover:bg-opal hover:text-black w-1/6 p-2 m-2">Resume</a>
+            <a href='/Nilson_Gao_Resume_Coop.pdf' target="_blank" className="text-lg text-center text-white bg-emerald font-bold tracking-normal rounded-full hover:bg-opal hover:text-black w-1/6 p-2 m-2">Resume</a>
           </div>
         </div>
       </section>
