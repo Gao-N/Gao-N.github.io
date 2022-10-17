@@ -5,9 +5,9 @@ import NavItem from './NavItem';
 export default function App() {
   return (
     <div className='scroll-smooth'>
-      <nav className='fixed flex justify-around items-center bg-onyx p-3 w-full'>
-        <div className='flex justify-around tracking-[.10em] w-screen'>
-          <a href='/'><h1 className='text-lg text-white font-bold hover:text-black tracking-widest'>Nilson Gao</h1></a>
+      <nav className='fixed flex justify-around items-center bg-onyx p-2 w-full'>
+        <div className='flex justify-around tracking-tighter sm:tracking-[.10em] w-full'>
+          <a href='/'><h1 className='text-base sm:text-lg m-2 text-white font-bold hover:text-black tracking-tight'>Nilson Gao</h1></a>
           <ul className='flex justify-around w-7/12 scroll-smooth'>
             {/* <NavItem title="About Me" href={"#Summary"}></NavItem> */}
             <NavItem title="Skills" href={"#Skills"}></NavItem>
@@ -16,7 +16,7 @@ export default function App() {
           </ul>
         </div>
       </nav>
-      <section id = "Summary" className='bg-opal flex justify-evenly items-center content-center h-screen w-screen'>
+      <section id = "Summary" className='bg-opal flex justify-evenly items-center content-center h-screen w-full'>
         <div className='flex flex-col justify-center'>
           <h1 className='text-2xl font-bold text-center mb-4'>About Me</h1>
           <img src='1653540266234.jfif' alt='profile' width={300}></img>
@@ -34,20 +34,22 @@ export default function App() {
           </div>
         </div>
       </section>
-      <section id = "Skills" className='bg-blue flex justify-evenly items-center content-center h-screen w-screen'>
+      <section id = "Skills" className='bg-blue flex justify-evenly items-center content-center h-screen w-full'>
         <h1 className='text-2xl font-bold text-black text-center'>Summary of Skills</h1>
         <div className='flex justify-center bg-onyx h-4/5 w-4/6 text-center text-white place-content-evenly'>
-        <ol className='text-lg font-bold text-center m-10 list-none'>
-          <li className='h-1/6'>Python</li>
-          <li className='h-1/6'>HTML, CSS, JS</li>
-          <li className='h-1/6'>Technologies: React JS, Tailwind CSS</li>
-          <li className='h-1/6'>Microsoft Office (MS Word, Excel, VBA)</li>
-          <li className='h-1/6'>Network Applications (Internet)</li>
-          <li className='h-1/6'>Bilingual</li>
+        <ol className='text-sm sm:text-lg font-bold text-center m-10 list-none'>
+          <li className='h-min sm:mb-6 mb-10'>Python</li>
+          <li className='h-min sm:mb-6 mb-10'>Java</li>
+          <li className='h-min sm:mb-6 mb-10'>C</li>
+          <li className='h-min sm:mb-6 mb-10'>HTML, CSS, JS</li>
+          <li className='h-min sm:mb-6 mb-10'>Technologies: React JS, Tailwind CSS</li>
+          <li className='h-min sm:mb-6 mb-10'>Microsoft Office (MS Word, Excel, VBA)</li>
+          <li className='h-min sm:mb-6 mb-10'>Network Applications (Internet)</li>
+          <li className='h-min sm:mb-6 mb-10'>Bilingual</li>
         </ol>
         </div>
       </section>
-      <section id = "Courses" className='bg-prussian flex justify-evenly items-center content-center h-screen w-screen'>
+      <section id = "Courses" className='bg-prussian flex justify-evenly items-center content-center h-screen w-full'>
         <h1 className='text-2xl font-bold text-white text-center'>Relevant Courses</h1>
         <div className='flex justify-evenly items-center bg-gainsboro h-4/5 w-4/6'>
         <ul className=''>
