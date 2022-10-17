@@ -38,14 +38,14 @@ export default function App() {
         <h1 className='text-2xl font-bold text-black text-center'>Summary of Skills</h1>
         <div className='flex justify-center bg-onyx h-4/5 w-4/6 text-center text-white place-content-evenly'>
         <ol className='text-sm sm:text-lg font-bold text-center m-10 list-none'>
-          <li className='h-min sm:mb-6 mb-10'>Python</li>
-          <li className='h-min sm:mb-6 mb-10'>Java</li>
-          <li className='h-min sm:mb-6 mb-10'>C</li>
-          <li className='h-min sm:mb-6 mb-10'>HTML, CSS, JS</li>
-          <li className='h-min sm:mb-6 mb-10'>Technologies: React JS, Tailwind CSS</li>
-          <li className='h-min sm:mb-6 mb-10'>Microsoft Office (MS Word, Excel, VBA)</li>
-          <li className='h-min sm:mb-6 mb-10'>Network Applications (Internet)</li>
-          <li className='h-min sm:mb-6 mb-10'>Bilingual</li>
+          <li className='h-min sm:mb-6 mb-11'>Python</li>
+          <li className='h-min sm:mb-6 mb-11'>Java</li>
+          <li className='h-min sm:mb-6 mb-11'>C</li>
+          <li className='h-min sm:mb-6 mb-11'>HTML, CSS, JS</li>
+          <li className='h-min sm:mb-6 mb-11'>Technologies: React JS, Tailwind CSS</li>
+          <li className='h-min sm:mb-6 mb-11'>Microsoft Office (MS Word, Excel, VBA)</li>
+          <li className='h-min sm:mb-6 mb-11'>Network Applications (Internet)</li>
+          <li className='h-min sm:mb-6 mb-11'>Bilingual</li>
         </ol>
         </div>
       </section>
