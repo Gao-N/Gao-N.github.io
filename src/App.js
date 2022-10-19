@@ -52,12 +52,22 @@ export default function App() {
       <section id = "Courses" className='bg-prussian flex justify-evenly items-center content-center h-screen w-full'>
         <h1 className='text-2xl font-bold text-white text-center'>Relevant Courses</h1>
         <div className='flex justify-evenly items-center bg-gainsboro h-4/5 w-4/6'>
-        <ul className=''>
+        <ul>
           <li className='bg-emerald rounded-md m-2 p-2'><h1 className='font-bold text-2xl text-white'>CSCA48</h1>
           <ul className='font-bold text-base bg-emerald rounded-md text-white m-3 p-2 list-disc'>
             <li>Learned C Programming</li>
             <li>Abstract Data Types/Structures and their Implementation</li>
             <li>Efficiency Analysis of Algorithms</li>
+          </ul>
+          </li>
+          <li className='bg-emerald rounded-md m-2 p-2'><h1 className='font-bold text-2xl text-white'>CSCB07</h1>
+          <ul className='font-bold text-base bg-emerald rounded-md text-white m-3 p-2 list-disc'>
+            <li>Learned Java and Software Design</li>
+            <li>Good Software Principles</li>
+            <li>Advanced Object Oriented Programming and IDE usage</li>
+            <li>Agile, Software Methodologies, and Build Management</li>
+            <li>Version Control</li>
+            <li>Design Patterns and Quick Solutions</li>
           </ul>
           </li>
         </ul>
