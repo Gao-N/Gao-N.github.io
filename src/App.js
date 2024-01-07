@@ -12,6 +12,7 @@ export default function App() {
             {/* <NavItem title="About Me" href={"#Summary"}></NavItem> */}
             <NavItem title="Skills" href={"#Skills"}></NavItem>
             <NavItem title="Courses" href={"#Courses"}></NavItem>
+            <NavItem title="Interviews" href={"#Interviews"}></NavItem>
             <Button title="Contact" href={"mailto:nilsongao33@gmail.com"}></Button>
           </ul>
         </div>
@@ -22,10 +23,9 @@ export default function App() {
           <img src='1653540266234.jfif' alt='profile' width={300}></img>
         </div>
         <div className='flex flex-col bg-gainsboro h-4/5 w-2/3'>
-          <p className='text-sm font-bold text-left m-10 sm:text-lg'>I am a second year student at the University of Toronto Scarborough.
-              I am currently in Statistics Specialist - Machine Learning and Data Mining program. I wish to pursue a career that allows me to use and manipulate Data to achieve desired results.
-              I believe we live in a time where there is abundant information and inefficient usage of it. I am observant, willing to learn, passionate, straightforward, and organized.
-              I strive under pressure and enjoy overcoming challenges.
+          <p className='text-sm font-bold text-left m-10 sm:text-lg'>I am a student at the University of Toronto Scarborough currently studying in Statistics - ML and DataSci program. I wish to pursue a career that allows me to use and manipulate Data to achieve desired results.
+              I believe we live in a time where data skills are becoming increasingly important. I am observant, willing to learn, passionate, and organized.
+              I adapt quickly under pressure and enjoy overcoming challenges.
           </p>
           <div className='flex justify-center'>
             <LinkButton href={'https://github.com/Gao-N'} title="Github"></LinkButton>
