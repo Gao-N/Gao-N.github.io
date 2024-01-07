@@ -10,9 +10,9 @@ export default function App() {
           <a href='/'><h1 className='text-base sm:text-lg m-2 text-white font-bold hover:text-black tracking-tight'>Nilson Gao</h1></a>
           <ul className='flex justify-around w-7/12 scroll-smooth'>
             {/* <NavItem title="About Me" href={"#Summary"}></NavItem> */}
-            <NavItem title="Skills" href={"#Skills"}></NavItem>
-            <NavItem title="Courses" href={"#Courses"}></NavItem>
-            <NavItem title="Interviews" href={"#Interviews"}></NavItem>
+            <NavItem title="Summary" href={"#Skills"}></NavItem>
+            <NavItem title="Skills" href={"#Courses"}></NavItem>
+            <NavItem title="Courses" href={"#Interviews"}></NavItem>
             <Button title="Contact" href={"mailto:nilsongao33@gmail.com"}></Button>
           </ul>
         </div>
